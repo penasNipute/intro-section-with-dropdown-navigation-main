@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  
+</head>
+<body>
+    <div class="container">
+        <header>
+          <div class="features-logo">
+            <a href="index.html">
+              <div class="logo">
+                <img src="./images/logo.svg" alt="Snap Logo">
+              </div>
+            </a>
+            <!-- logo -->
+            <div class="feactures desktop">
+              <div class="feacture-container"  id="feacture">
+                <a href="#" class="feacture" id="fecture-item">Features <img  id="fecture-image" src="./images/icon-arrow-down.svg" alt="icon arrow down"></a>
+                <ul class="ul inative">
+                  <li><img src="./images/icon-todo.svg" alt="icon todo"> <p> Todo list</p></li>
+                  <li><img src="./images/icon-calendar.svg" alt="icon calendar"> <p> Calendar</p></li>
+                  <li><img src="./images/icon-reminders.svg" alt="icon reminders"><p>  Remainder</p></li>
+                  <li> <img src="./images/icon-planning.svg" alt="icon Planning"> <p>Planning</p></li>
+                </ul>
+              </div>
+              <div class="feacture-container"  id="company">
+                <a href="#" class="feacture">Company <img id="company-image" src="./images/icon-arrow-down.svg" alt="icon arrow down"></a>
+                <ul class="ul inative">
+                  <li><p>History</p></li>
+                  <li><p>Our Team</p></li>
+                  <li><p>Blog</p></li>
+                </ul>
+              </div>
+              <div class="feacture-container">
+                <a href="#" class="feacture">Careers</a>
+              </div>
+              <div class="feacture-container">
+                <a href="#" class="feacture">About</a>
+              </div>
+            </div>
+            <!-- feactures -->
+          </div>
+          <!-- features-logo -->
+
+          <div class=" login-register">
+            <a href="#">
+            <button class="desktop login-button btn">
+                Login
+              </button>
+            </a>
+            <!-- login-button -->
+            
+            <a href="#">
+            <button class="desktop register-button btn">
+              Register
+              </button>
+            </a>
+            <!-- register-button -->
+            <img id="openMenu" class="mobile" src="./images/icon-menu.svg" alt="icon open menu">
+          </div>
+          <!-- login-register -->
+        </header>
+      
+        <main>
+          <div class="main-content">
+            <h1 class="desktop">
+              Make <br> remote work
+            </h1>
+            <h1 class="mobile">
+              Make remote work
+            </h1>
+          
+            <p class="desktop">
+              Get your team in sync, no matter your location. <br>  Streamline processes, 
+              create team rituals, and <br>  watch productivity soar.
+            </p>
+            <p class="mobile">
+              Get your team in sync, no matter your location.  Streamline processes, 
+              create team rituals, and  watch productivity soar.
+            </p>
+            <a href="#">
+              <button class="btn learn">
+                Learn more
+              </button>
+            </a>
+
+            <div class="sponsor">
+              <img src="./images/client-audiophile.svg" alt="icon audiophile">
+              <img src="./images/client-databiz.svg" alt="icon databiz">
+              <img src="./images/client-meet.svg" alt="icon meet">
+              <img src="./images/client-maker.svg" alt="icon maker">
+            </div>
+
+          </div>
+          <!-- main-content -->
+          <div class="main-image">
+
+          </div>
+          <!-- main-image -->
+        </main>
+
+       
+      
+        
+      <footer>
+      <div class="desktop attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="m.me/penasNipute">Penas Nipute</a>.
+      </div>
+      <div class="mobile attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. <br>
+        Coded by <a href="m.me/penasNipute">Penas Nipute</a>.
+      </div>
+      </footer>
+    </div>
+    <!-- container -->
+
+    <div id="modal" class="modal inative">
+      <div id="modalWrapper" class="modal-wrapper">
+        <img id="closeMenu" src="./images/icon-close-menu.svg" alt="icone close menu">
+        <div class="feactures mobile">
+          <div class="feacture-container"  id="feactureMobile">
+            <a href="#" class="feacture" id="fecture-item">Features <img  id="fecture-image-mobile" src="./images/icon-arrow-down.svg" alt="icon arrow down"></a>
+            <ul class="ul inative">
+              <li><img src="./images/icon-todo.svg" alt="icon todo"> <p> Todo list</p></li>
+              <li><img src="./images/icon-calendar.svg" alt="icon calendar"> <p> Calendar</p></li>
+              <li><img src="./images/icon-reminders.svg" alt="icon reminders"><p>  Remainder</p></li>
+              <li> <img src="./images/icon-planning.svg" alt="icon Planning"> <p>Planning</p></li>
+            </ul>
+          </div>
+        <div class="feacture-container"  id="companyMobile">
+          <a href="#" class="feacture">Company <img id="company-image-mobile" src="./images/icon-arrow-down.svg" alt="icon arrow down"></a>
+          <ul class="ul inative">
+            <li><p>History</p></li>
+            <li><p>Our Team</p></li>
+            <li><p>Blog</p></li>
+          </ul>
+        </div>
+        <div class="feacture-container">
+          <a href="#" class="feacture">Careers</a>
+        </div>
+        <div class="feacture-container">
+          <a href="#" class="feacture">About</a>
+        </div>
+      </div>
+      <!-- feactures -->
+    </div>
+    <!-- modal-wrapper  -->
+  </div>
+    <!-- modal -->
+    
+    <script src="index.js"></script>
+  </body>
+  </html>
