@@ -315,6 +315,29 @@ footer
 
 }
 
+@media only screen and   (max-width: 968px)
+{
+    header
+{    
+    flex-direction: column;
+   padding-bottom:0;   
+}
+
+.features-logo
+{
+    width: 100%;
+    justify-content:space-between;
+
+}
+
+.login-register
+{
+    width: 100%;
+    margin-top: 2rem;
+    justify-content: flex-end;
+}
+}
+
 @media only screen and   (max-width: 768px)
 {
     .desktop{
@@ -325,6 +348,22 @@ footer
     {
         display: block;
     }
+
+    header
+    {
+        
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+       
+    }
+
+    .login-register
+{
+   
+    margin-top: 0;
+   
+}
 
     main
 {
