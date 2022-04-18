@@ -150,6 +150,14 @@ button.btn.learn
     padding-top: 20px;
 }
 
+button.btn.learn:hover
+{
+    background-color: var(--almost-white);
+    color: var(--almost-black);
+    border: 1px solid var(--almost-black);
+}
+
+
 button.btn.register-button
 {
     border: 2px solid var(--medium-gray);
